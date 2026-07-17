@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: powerlens-postgres
+    environment:
+      POSTGRES_DB: powerlens
+      POSTGRES_USER: powerlens
+      POSTGRES_PASSWORD: powerlens
+    ports:
+      - "5432:5432"
+    volumes:
+      - powerlens-postgres:/var/lib/postgresql/data
+
+volumes:
+  powerlens-postgres:

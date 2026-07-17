@@ -1,0 +1,6 @@
+@PowerLens.Api_HostAddress = http://localhost:5216
+
+GET {{PowerLens.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,42 @@
+@import "@mdxeditor/editor/style.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #17201b;
+  background: #f7f5ef;
+}
+
+body {
+  min-height: 100vh;
+  background: #f7f5ef;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.prose-preview h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+}
+
+.prose-preview h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1.25rem 0 0.4rem;
+}
+
+.prose-preview p {
+  margin: 0.35rem 0;
+}
+
+.prose-preview a {
+  color: #2f5d50;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
